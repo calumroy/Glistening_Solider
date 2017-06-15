@@ -6,5 +6,7 @@ Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
 Library/ShaderCache/
 Library/ScriptAssemblies/
 Library/Temp/*
-/Temp/*
+Temp/*
 Library/metadata/*
+Library/metadata/
+Temp/
