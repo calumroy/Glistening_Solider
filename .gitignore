@@ -1,3 +1,10 @@
 Assets/SteamVR/
 
 
+Library/metadata/
+Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+Library/ShaderCache/
+Library/ScriptAssemblies/
+Library/Temp/*
+/Temp/*
+Library/metadata/*
