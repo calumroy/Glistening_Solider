@@ -6,48 +6,27 @@ public class MusicControl : MonoBehaviour
 {
 
 
-    public AudioMixerSnapshot outOfCombat;
-    public AudioMixerSnapshot inCombat;
-    public AudioClip[] stings;
-    public AudioSource stingSource;
-    public float bpm = 128;
 
+    public AudioSource musicSource;
+    public static MusicControl instanceSM = null;
 
-    private float m_TransitionIn;
-    private float m_TransitionOut;
-    private float m_QuarterNote;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
-        m_QuarterNote = 60 / bpm;
-        m_TransitionIn = m_QuarterNote;
-        m_TransitionOut = m_QuarterNote * 32;
-
     }
 
-    void OnTriggerEnter(Collider other)
+    // Update is called once per frame
+    void Update()
     {
-        if (other.CompareTag("CombatZone"))
+        if (!(GetComponent<AudioSource>().isPlaying))
         {
-            inCombat.TransitionTo(m_TransitionIn);
-            PlaySting();
+            GetComponent<AudioSource>().Play();
         }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("CombatZone"))
+        else
         {
-            outOfCombat.TransitionTo(m_TransitionOut);
+            //Debug.log("Something is wrong with Music.");
         }
-    }
-
-    void PlaySting()
-    {
-        int randClip = Random.Range(0, stings.Length);
-        stingSource.clip = stings[randClip];
-        stingSource.Play();
     }
 
 
