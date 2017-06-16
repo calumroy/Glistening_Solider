@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glistening_Solider.Plugins", "Glistening_Solider.Plugins.csproj", "{E81AEA93-342F-CCA7-2E65-CF8A5A1C85B6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glistening_Solider", "Glistening_Solider.csproj", "{5C2CAB18-3076-531B-8B61-B87C8A7F1476}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glistening_Solider.Editor", "Glistening_Solider.Editor.csproj", "{8F7C2BBE-00C7-490E-4EB4-E95FA9DB9BB5}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E81AEA93-342F-CCA7-2E65-CF8A5A1C85B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81AEA93-342F-CCA7-2E65-CF8A5A1C85B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81AEA93-342F-CCA7-2E65-CF8A5A1C85B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81AEA93-342F-CCA7-2E65-CF8A5A1C85B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C2CAB18-3076-531B-8B61-B87C8A7F1476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C2CAB18-3076-531B-8B61-B87C8A7F1476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C2CAB18-3076-531B-8B61-B87C8A7F1476}.Release|Any CPU.ActiveCfg = Release|Any CPU
