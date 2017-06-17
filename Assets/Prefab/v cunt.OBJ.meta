@@ -1,17 +1,17 @@
 fileFormatVersion: 2
 guid: 488032ac0d44cac48b014706568402b1
-timeCreated: 1497061179
+timeCreated: 1497633612
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Group31716
-    100002: //RootNode
-    400000: Group31716
-    400002: //RootNode
-    2300000: Group31716
-    3300000: Group31716
-    4300000: Group31716
+    100000: //RootNode
+    100002: ZBrushPolyMesh3D
+    400000: //RootNode
+    400002: ZBrushPolyMesh3D
+    2300000: ZBrushPolyMesh3D
+    3300000: ZBrushPolyMesh3D
+    4300000: ZBrushPolyMesh3D
   materials:
     importMaterials: 1
     materialName: 0
