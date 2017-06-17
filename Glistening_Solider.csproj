@@ -84,8 +84,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ClickToMove.cs" />
     <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
     <Compile Include="Assets\Scripts\LaserPointer.cs" />
+    <Compile Include="Assets\Scripts\LocomotionSimpleAgent.cs" />
+    <Compile Include="Assets\Scripts\LookAt.cs" />
     <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Scripts\ViveControllerInputTest.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
