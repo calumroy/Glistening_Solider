@@ -7,11 +7,14 @@ public class ClickToMove : MonoBehaviour {
 	UnityEngine.AI.NavMeshAgent agent;
     public Transform cameraRigTransform;
 
+
     void Start () {
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
-	}
+        
+
+    }
 	void Update () {
-        agent.destination = cameraRigTransform.position;
+        agent.destination = cameraRigTransform.position + transform.forward; ;
 
         }
 	
