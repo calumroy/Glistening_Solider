@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 117
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 118
+  controlID: 86
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 119
+  controlID: 25
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,14 +256,14 @@ MonoBehaviour:
     height: 671
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 15}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -442,19 +442,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefab
+    - Assets/Models/calums glisten/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Models/calums glisten/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\roy\Documents\Glistening_Solider
+  m_LastProjectPath: E:\art\games\Glistening Soldier
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 134}
-    m_SelectedIDs: f4390000
-    m_LastClickedID: 14836
-    m_ExpandedIDs: 00000000b23700003639000096390000c4390000f4390000e63a0000243b00009a3c0000fc3c0000183d00007440000076400000784000007a40000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 84270000
+    m_LastClickedID: 10116
+    m_ExpandedIDs: 00000000342600004a280000d8280000242900005c2900006c290000d82a0000182b0000862c0000562d0000e62d0000222e000076330000783300007a3300007c33000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,7 +482,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b237000024380000f838000036390000c4390000e63a0000243b00000c3c00009a3c0000fc3c00009c3d00007440000076400000784000007a400000
+    m_ExpandedIDs: 00000000342600004a280000d8280000242900005c290000d82a0000182b0000562d0000e62d0000222e000076330000783300007a3300007c330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e061000026260000000000008a2700002a28000056270000862800004e37000076360000983a00000a3700007e360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -598,23 +598,23 @@ MonoBehaviour:
     height: 650
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 66bcffff72bcffffa6bdffffdabdffff00000000643e0000
+    m_SelectedIDs: ccf4ffff
+    m_LastClickedID: -2868
+    m_ExpandedIDs: 30fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Tree
-      m_OriginalName: Tree
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -16998
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -655,9 +655,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5620861, y: -2.3384366, z: 41.10508}
+    m_Target: {x: 16.44976, y: 5.2580543, z: -32.060753}
     speed: 2
-    m_Value: {x: 0.5620861, y: -2.3384366, z: 41.10508}
+    m_Value: {x: 16.44976, y: 5.2580543, z: -32.060753}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -680,13 +680,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.055303667, y: -0.13235746, z: 0.0073970044, w: 0.9896304}
+    m_Target: {x: 0.000535054, y: 0.9949724, z: 0.100006714, w: -0.005314235}
     speed: 2
-    m_Value: {x: 0.055303667, y: -0.13235746, z: 0.0073970044, w: 0.9896304}
+    m_Value: {x: 0.000535054, y: 0.9949724, z: 0.100006714, w: -0.005314235}
   m_Size:
-    m_Target: 81.33527
+    m_Target: 12.829715
     speed: 2
-    m_Value: 81.33527
+    m_Value: 12.829715
   m_Ortho:
     m_Target: 0
     speed: 2
