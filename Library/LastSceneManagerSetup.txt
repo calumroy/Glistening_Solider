@@ -2,3 +2,21 @@ sceneSetups:
 - path: Assets/game_stuff.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/BulletUnity/Examples/Scenes/SoftBody/HighPolySkinnedMeshDrivenByLowPolySoftBody.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/BulletUnity/Examples/Scenes/Terrain/heightfieldTest.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/BulletUnity/Examples/Scenes/Ragdoll/Ragdoll.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/BulletUnity/Examples/Scenes/CharacterController/CharacterController.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/BulletUnity/Examples/Scenes/CollisionCallbacks/CollisionCallbacks.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/BulletUnity/Examples/Scenes/Triggers/TriggerExample.unity
+  isLoaded: 0
+  isActive: 0
